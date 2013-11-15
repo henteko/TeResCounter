@@ -1,0 +1,14 @@
+{
+  "name": "TeResCounter",
+  "description": "TeResCounter",
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "128": "sample_packaged-128.png" },
+  "permissions": [
+     "serial"
+  ]
+}

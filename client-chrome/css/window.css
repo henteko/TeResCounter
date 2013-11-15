@@ -1,0 +1,14 @@
+#counter {
+  text-align: center;
+  font-size: 120px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+body #wrapper{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
