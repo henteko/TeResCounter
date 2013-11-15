@@ -6,9 +6,9 @@ void loop() {
   //ここでbuttonのon/offの判断する
   boolean flag = true; //今はテスト用
   if(flag) {
-    Serial.write("1");
+    Serial.write(1);
   }else {
-    Serial.write("0");
+    Serial.write(0);
   }
   
   delay(5000);
