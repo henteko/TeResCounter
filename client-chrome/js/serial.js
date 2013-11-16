@@ -20,7 +20,9 @@ $(function(){
         console.log(data);
 
         // counter increment
-        if (data == "1") {
+        var re = /1/;
+        var ar = re.exec(data);
+        if (ar[0] != undefined) {
           //animationStart(5);
           counter.increment();
         }
